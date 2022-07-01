@@ -1,5 +1,7 @@
 #! /bin/zsh
 
+chmod +x get_contact update_sms
+
 python3 create_database.py
 
 ./update_sms

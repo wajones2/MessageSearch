@@ -6,7 +6,7 @@ MessageSearch is a Command-Line Interface program that allows users to explore t
 
 MessageSearch utilizes two databases: contacts.db and chat.db (Messages app database). 
 
-1. Execute ```./config``` to create the contacts database, copy the Messages database to the program directory, and fill the contacts database with the info of any phone number that has been messaged as long as it is a saved contact.
+1. Execute ```source config``` to create the contacts database, copy the Messages database to the program directory, and fill the contacts database with the info of any phone number that has been messaged as long as it is a saved contact.
 
 # Operation
 
