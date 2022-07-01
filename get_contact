@@ -1,0 +1,17 @@
+#! /bin/zsh
+
+
+CONTACT_NUMBER=${1}
+
+CONTACT_NAME=$(
+osascript - << EOF 
+
+tell application "Messages"
+	get name of participant "+1$CONTACT_NUMBER"
+end tell
+
+EOF
+)
+
+echo $CONTACT_NAME
+

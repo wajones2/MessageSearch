@@ -1,0 +1,7 @@
+#! /bin/zsh
+
+CURDIR=$(pwd)
+
+cd ~/Library/Messages
+sudo cp chat.db chat.db-shm chat.db-wal $CURDIR'/data/db'
+cd -

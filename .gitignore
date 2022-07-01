@@ -1,0 +1,17 @@
+# Files #
+#################
+.DS_Store
+
+data/contacts.db 
+data/db/chat.db
+data/db/chat.db-shm
+data/db/chat.db-wal
+
+# Directories #
+#################
+__pycache__
+.Trashes
+.Spotlight-V100
+
+ignored/
+venv/

@@ -1,0 +1,8 @@
+#! /bin/zsh
+
+python3 create_database.py
+
+./update_sms
+
+python3 update_contacts.py
+
